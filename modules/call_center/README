@@ -315,7 +315,7 @@ cc_agent_login("agentX","0");
 
    Total number of calls answered by agents. (counter type)
 
-1.6.1.6. ccg_abandonned_incalls
+1.6.1.6. ccg_abandoned_incalls
 
    Total number of calls terminated by caller before being
    answered by agents. (counter type)

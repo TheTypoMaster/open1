@@ -123,7 +123,7 @@ static stat_export_t mod_stats[] = {
 	{"ccg_load",                  STAT_IS_FUNC,   (stat_var**)stg_load             },
 	{"ccg_distributed_incalls",   0,              &stg_dist_incalls                },
 	{"ccg_answered_incalls" ,     0,              &stg_answ_incalls                },
-	{"ccg_abandonned_incalls" ,   0,              &stg_aban_incalls                },
+	{"ccg_abandoned_incalls" ,   0,              &stg_aban_incalls                },
 	{"ccg_onhold_calls",          STAT_NO_RESET,  &stg_onhold_calls                },
 	{"ccg_free_agents",           STAT_IS_FUNC,   (stat_var**)stg_free_agents      },
 	{0,0,0}
